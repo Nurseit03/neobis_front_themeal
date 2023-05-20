@@ -1,5 +1,5 @@
 *{
-  font-family: Cardo;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 img {
   overflow: clip;
@@ -9,6 +9,10 @@ img {
   margin-bottom: 20px;
   margin-top: 10px;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header {
   align-items: center;
@@ -26,26 +30,25 @@ img {
   padding: 60px 30px;
 }
 
-.random-meal-block {
+.random__meal {
   display: flex;
   gap: 20px;
   margin-bottom: 60px;
 }
 
-.random-meal-block-text {
+.random__meal__text {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.random-meal-block-img, .random-meal-block-text {
+.random__meal__img, .random__meal__text {
   flex-basis: 50%;
   text-align: center;
 }
-.random-meal-block-img img {
+.random__meal__img img {
   border-radius: 8px;
-  box-shadow: 10px 12px 29px -14px rgba(0,0,0,.75);
   object-fit: cover;
   width: 70%;
 }
@@ -59,7 +62,7 @@ img {
   margin-bottom: 2rem;
 }
 
-.search-block {
+.search__form {
   align-items: center;
   display: flex;
   height: 46px;
@@ -69,7 +72,7 @@ img {
   width: 360px;
 }
 
-.search-block input {
+.search__form input {
   background-color: #dcdcdc;
   border: none;
   border-radius: 3px;
@@ -82,7 +85,7 @@ img {
   cursor: text;
 }
 
-.search-block button {
+.search__form button {
   background: #d49726;
   border: 0;
   border-radius: 0 3px 3px 0;
@@ -95,20 +98,27 @@ img {
   right: 0;
   width: 100px;
 }
-
-.meal-block {
+/***********/
+.meal {
   align-items: center;
   display: flex;
   gap: 20px;
   margin-bottom: 40px;
 }
 
-.meal-block img {
+.meal img {
   border-radius: 4px;
   flex-basis: 20%;
   width: 100%;
 }
 
-.meal-block-info {
-  font-family: Raleway;
+.meal h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.random__meal__info{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.meal__info {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
