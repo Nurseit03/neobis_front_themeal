@@ -1,8 +1,9 @@
 # The Meal DB
 [Visit website](http://neobis-front-themeal-eta.vercel.app)
 
-![Meal](https://github.com/Nurseit03/neobis_front_themeal/assets/66901719/ae27aca2-6262-41d0-8273-ac7ffd46e3f9)
-![Meal Detail](https://github.com/Nurseit03/neobis_front_themeal/assets/66901719/3a28c7af-4cf7-44c1-b25c-e66992eec1fe)
+![image](https://github.com/Nurseit03/neobis_front_themeal/assets/66901719/dca616b5-faae-4044-a182-931e4eee041e)
+![image](https://github.com/Nurseit03/neobis_front_themeal/assets/66901719/fba1c582-8db1-4ef8-9954-fff35a369208)
+![image](https://github.com/Nurseit03/neobis_front_themeal/assets/66901719/18a1be78-01bb-4bb8-ad5e-d7e4f797eb42)
 
 
 Built on HTML, CSS, React, React Router 
