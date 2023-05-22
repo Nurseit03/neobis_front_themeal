@@ -12,18 +12,10 @@ const Home = function(){
     const API_URL_SEARCH_MEAL = "https://www.themealdb.com/api/json/v1/1/search.php?s=";//тут нужно дописать слово 
     const API_URL_SEARCH_BY_FIRST_LETTER = "https://www.themealdb.com/api/json/v1/1/search.php?f=";//тут нужно дописать букву
 
-    //получаем инпут
+    // Получаем инпут
     const settingSearch=(e)=>{
         setSearch(e.target.value);
     }
-    // Проверка находит ли текст из инпута 
-    // const submit = (e) => {
-    //     e.preventDefault();
-    //     const searchMeals = `${API_URL_SEARCH_MEAL}`+search;
-    //     console.log(search);
-    //     console.log(searchMeals);
-    //   };
-
     const submit = (e) => {
         e.preventDefault();
         const searchMeals = `${API_URL_SEARCH_MEAL}`+search;
@@ -31,11 +23,11 @@ const Home = function(){
         console.log(searchMeals);
         fetch(searchMeals)
           .then(response => response.json())
-          .then(data => setSearchResult(data.meals.slice(0,5)))
+          .then(data => setSearchResult(data.meals))
           .catch(error => console.log(error));
       };
 
-    //рандомное блюдо
+    // Рандомное блюдо
     const fetchRandomMeal = () => {
         fetch(API_URL_RANDOM_MEAL)
             .then(response => response.json())
@@ -46,8 +38,7 @@ const Home = function(){
     if (!randomMeal) {
         fetchRandomMeal();
     }
-
-
+    
     return(
         <div className="home">
             <section className="random__meal">
@@ -79,14 +70,16 @@ const Home = function(){
             <section className="meals">
                 <div>
                     {searchResult.map((item) => (
-                        <Meals
-                            id={item.idMeal}
-                            key={item.idMeal}
-                            img={item.strMealThumb}
-                            title={item.strMeal}
-                            area={item.strArea}
-                            category={item.strCategory}
-                        />
+                        <Link to={`/${item.idMeal}`} key={item.idMeal}>
+                            <Meals
+                                id={item.idMeal}
+                                key={item.idMeal}
+                                img={item.strMealThumb}
+                                title={item.strMeal}
+                                area={item.strArea}
+                                category={item.strCategory}
+                            />
+                        </Link>
                     ))}
                 </div>
             </section>

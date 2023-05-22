@@ -76,7 +76,7 @@ img {
   background-color: #dcdcdc;
   border: none;
   border-radius: 3px;
-  font-family: Raleway;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 100%;
   outline: none;
   padding: 6px 12px;
@@ -91,7 +91,7 @@ img {
   border-radius: 0 3px 3px 0;
   color: #fff;
   cursor: pointer;
-  font-family: Raleway;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 700;
   height: 100%;
   position: absolute;
@@ -122,3 +122,68 @@ img {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.meal__detail__youtube {
+  align-items: center;
+  background-color: red;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  font-family: Raleway;
+  font-weight: 700;
+  height: 45px;
+  justify-content: center;
+  margin: 60px 0;
+  width: 200px;
+}
+
+.meal__detail{
+  padding: 20px;
+}
+
+.meal__detail__info{
+  display: flex;
+  font-family: Raleway;
+  gap: 20px;
+  margin: 60px 0;
+}
+
+.meal__detail__info__text{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.meal__detail__info__img, .meal__detail__info__text {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.ingredients {
+  align-self: flex-start;
+  margin: 20px 0 40px;
+  padding-left: 40px;
+  text-align: left;
+}
+.ingredients p, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.instruction__text{
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: normal;
+}
+
+.meal__detail__youtube {
+  align-items: center;
+  background-color: red;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  font-family: Raleway;
+  font-weight: 700;
+  height: 45px;
+  justify-content: center;
+  margin: 60px 0;
+  width: 200px;
+}
