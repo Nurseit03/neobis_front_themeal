@@ -1,5 +1,5 @@
 # The Meal DB
-[Visit website][(http://neobis-front-themeal-eta.vercel.app)](https://neobis-front-themeal-theta.vercel.app/)
+[Visit website](https://neobis-front-themeal-theta.vercel.app/)
 
 ![image](https://github.com/Nurseit03/neobis_front_themeal/assets/66901719/dca616b5-faae-4044-a182-931e4eee041e)
 ![image](https://github.com/Nurseit03/neobis_front_themeal/assets/66901719/fba1c582-8db1-4ef8-9954-fff35a369208)
